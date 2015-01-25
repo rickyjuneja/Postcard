@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder() //hides the keyboard
         
-        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal) //test comment
     }
 
 }
